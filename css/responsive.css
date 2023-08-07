@@ -1,0 +1,18 @@
+@media screen and (max-width: 992px) {
+  .card {
+    margin: 0 !important;
+    width: 100% !important;
+    margin-bottom: 10px !important;
+  }
+}
+@media screen and (max-width: 576px) {
+  .card {
+    flex-direction: column;
+  }
+  .content {
+    text-align: center;
+  }
+  .card .img {
+    margin-right: 0 !important;
+  }
+}
